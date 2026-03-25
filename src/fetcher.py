@@ -3,6 +3,7 @@ import json
 import time
 import requests
 
+
 BASE_URL = "https://api.openf1.org/v1"
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(DATA_DIR, exist_ok=True)

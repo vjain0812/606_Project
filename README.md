@@ -7,6 +7,7 @@ This project pulls real Formula 1 data from the OpenF1 API and organizes it into
 The idea is pretty simple: a race weekend already has a natural hierarchy, so we mirror that in a tree format.
 
 ROOT
+
 |── Meeting (e.g. Belgian Grand Prix 2023)
 
 |── Session (Practice, Qualifying, Sprint, Race)
@@ -22,6 +23,7 @@ On top of that, there’s a small web UI where you can click through the tree (k
 
 ## Project Structure
 f1-tree-explorer/
+
 ├── app.py # Flask app (routes + templates)
 
 ├── run_tree.py # CLI script to build + explore the tree

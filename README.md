@@ -148,3 +148,5 @@ Responses are cached locally in the data/ folder to avoid repeated API calls.
 - First run is slow because of API calls — this is expected
 - After caching, everything runs much faster
 - The project is more about practicing data structures than building a production app
+
+AI Statement- All the work done in this project is my own, AI has only been used in some parts to generate presentation slides structure
